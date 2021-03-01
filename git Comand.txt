@@ -1,0 +1,8 @@
+git config --global user.name "your_username"
+git config --global user.email "your_email_address@example.com"
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Shovon121/BD-City-Guide.git
+git push -u origin main
